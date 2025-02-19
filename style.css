@@ -1,0 +1,168 @@
+.full-width {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+  height: auto;
+  background-color: #021849; 
+}
+
+.breathe-in {
+  animation: breathe 4s ease-in-out;
+}
+
+@keyframes decorationanimation {
+  0% {
+      transform: scale(0.4);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+
+@keyframes textanimation {
+  0% {
+      transform: scale(0.4);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+
+.aesthetic-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 360vh;
+    overflow: hidden;
+}
+
+.decoration1 {
+  position: absolute;
+  top: 126px;
+  right: 1210px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  animation-name: decorationanimation;
+  animation-duration: 4s;
+}
+
+.decoration2 {
+  position: absolute;
+  top: -272px;
+  left: 897px;
+  right: 1240px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  animation-name: decorationanimation;
+  animation-duration: 4s;
+}
+
+.decoration3 {
+  position: absolute;
+  top: 886px;
+  left: 1074px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  animation-name: decorationanimation;
+  animation-duration: 4s;
+}
+
+.decoration4 {
+  position: absolute;
+  top: 1662px;
+  right: 963px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  animation-name: decorationanimation;
+  animation-duration: 4s;
+}
+
+.decoration5 {
+  position: absolute;
+  bottom: -640px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  animation-name: decorationanimation;
+  animation-duration: 4s;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+}
+
+.text-container {
+    position: absolute;
+    top: calc(60px + 0.3rem);
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.text1 {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    animation-name: textanimation;
+    animation-duration: 4s;
+}
+  
+
+.text2 {
+    position: relative;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 20;
+    animation-name: textanimation;
+    animation-duration: 4s;
+    
+}
+
+.text3 {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    z-index: 30;
+    animation-name: textanimation;
+    animation-duration: 4s;
+}
+
+.diamond1 {
+    position: absolute;
+    top: 1610px;
+    left: 670px;
+    z-index: 10;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    transform: rotate(327deg) skewX(25deg) scaleY(cos(25deg));
+}
+
+.diamond2 {
+    position: absolute;
+    top: 1610px;
+    left: 1320px;
+    z-index: 10;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    transform: rotate(327deg) skewX(25deg) scaleY(cos(25deg));
+}
